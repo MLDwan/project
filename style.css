@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;   
+    flex-direction: column;
+    align-items: center ;
+}
+
+#content-page{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(32, 29, 185);
+    border-top: none;
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border: 2px solid rgb(94, 89, 23);
+    background-color: rgb(93, 214, 103);
+}
+.task-container-done{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border: 2px solid rgb(94, 89, 23);
+    background-color: rgb(238, 188, 23)
+}
+.task-container-done img{
+    width: 20px;
+    height: 20px;
+}
+.task-container-done button{
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(238, 188, 23);
+}
+.task-container img{
+width: 20px;
+height: 20px;
+}
+.task-container button{
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(93, 214, 103);
+}
+
+.task-container input text{
+    border: none;
+}
+
+.text-task{
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+}
+.done-text{
+    color: rgb(206, 127, 127);
+    text-decoration: line-through
+}
+
+.mainCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    text-decoration: none;
+    padding: 0;
+}
